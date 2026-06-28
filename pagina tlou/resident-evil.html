@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Resident Evil 4 - Lore</title>
+</head>
+<body>
+    <main>
+        <h1>Resident Evil 4</h1>
+        <h2>Lore</h2>
+        <p>Leon S. Kennedy, superviviente de Raccoon City, es enviado a una remota zona de España para rescatar a Ashley, la hija del presidente, quien ha sido capturada por un culto que utiliza un parásito llamado Las Plagas.</p>
+        
+        <h2>Personajes Principales</h2>
+        <p><strong>Leon S. Kennedy:</strong> Agente gubernamental enviado para realizar el rescate.</p>
+        <p><strong>Ashley Graham:</strong> La hija del presidente, objetivo del rescate.</p>
+        <p><strong>Ada Wong:</strong> Una espía con objetivos propios que ayuda y a veces confunde a Leon.</p>
+        
+        <a href="index.html">← Volver al inicio</a>
+    </main>
+
+    <button id="theme-toggle" style="position: fixed; bottom: 20px; left: 20px; background-color: #ff4d4d; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer;">
+        Cambiar Tema
+    </button>
+
+    <script>
+        const btn = document.getElementById('theme-toggle');
+        btn.addEventListener('click', () => {
+            document.body.classList.toggle('light-mode');
+        });
+    </script>
+</body>
+</html>

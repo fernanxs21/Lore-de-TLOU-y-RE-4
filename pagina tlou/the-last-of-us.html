@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>The Last of Us - Lore</title>
+</head>
+<body>
+    <main>
+        <h1>The Last of Us Part I</h1>
+        <h2>Lore</h2>
+        <p>Veinte años después de que el hongo Cordyceps devastara la civilización, la humanidad lucha por sobrevivir. Joel es un superviviente encargado de escoltar a Ellie, una joven que podría ser la clave para una cura.</p>
+        
+        <h2>Personajes Principales</h2>
+        <p><strong>Joel Miller:</strong> Un contrabandista marcado por su pasado que encuentra un nuevo propósito.</p>
+        <p><strong>Ellie Williams:</strong> Una adolescente valiente e inmune al Cordyceps.</p>
+        
+        <a href="index.html">← Volver al inicio</a>
+    </main>
+
+    <button id="theme-toggle" style="position: fixed; bottom: 20px; left: 20px; background-color: #ff4d4d; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer;">
+        Cambiar Tema
+    </button>
+
+    <script>
+        const btn = document.getElementById('theme-toggle');
+        btn.addEventListener('click', () => {
+            document.body.classList.toggle('light-mode');
+        });
+    </script>
+</body>
+</html>
